@@ -5,7 +5,8 @@ This is a simple command-line utility for dumping the contents of a file in hexa
 ## Usage
 
 ```bash
-$ git clone 
+$ git clone https://github.com/HN026/HexDmp.git
+$ cd HexDmp
 $ make
 $ ./bin/dmp [filename]
 ```
