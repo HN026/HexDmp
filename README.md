@@ -16,8 +16,17 @@ $ ./bin/dmp [filename]
 ## Options & Flags
 
 - `-l, --line <int>`: Bytes per line in output (default: 16).
+  ```bash
+    $ ./bin/dmp -l <int> [filename]
+  ```
 - `-n, --num <int>`: Number of bytes to read (default: all).
+  ```bash
+    $ ./bin/dmp -n <int> [filename]
+  ```
 - `-o, --offset <int>`: Byte offset at which to begin reading.
+  ```bash
+    $ ./bin/dmp -o <int> [filename]
+  ```
 - `-h, --help`: Display help text and exit.
 - `-v, --version`: Display version number and exit.
 
